@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/55fbffd0c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <h1 class="title">To play!</h1>
+
+        <div class="cont-score">
+            <div class="users" id="playerX">
+                <p class="user-text">X</p>
+                <p class="score">0</p>
+            </div>
+            
+            <div class="users" id="playerO">
+                <p class="user-text">O</p>
+                <p class="score">0</p>
+            </div>
+        </div>
+
+        <div class="board">
+            <div class="row">
+                <div class="spot" id="spot1" data-row="0" data-column="0"></div>
+                <div class="spot" id="spot2" data-row="0" data-column="1"></div>
+                <div class="spot" id="spot3" data-row="0" data-column="2"></div>
+            </div>
+            <div class="row">
+                <div class="spot" id="spot1" data-row="1" data-column="0"></div>
+                <div class="spot" id="spot2" data-row="1" data-column="1"></div>
+                <div class="spot" id="spot3" data-row="1" data-column="2"></div>
+            </div>
+            <div class="row">
+                <div class="spot" id="spot1" data-row="2" data-column="0"></div>
+                <div class="spot" id="spot2" data-row="2" data-column="1"></div>
+                <div class="spot" id="spot3" data-row="2" data-column="2"></div>
+            </div>
+        </div>
+
+        <button class="btn">Restart Game</button>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
